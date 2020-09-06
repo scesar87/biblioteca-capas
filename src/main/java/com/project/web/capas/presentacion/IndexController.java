@@ -1,4 +1,4 @@
-package com.project.web.capas.controllers;
+package com.project.web.capas.presentacion;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

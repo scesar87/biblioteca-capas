@@ -1,0 +1,5 @@
+INSERT INTO libros (titulo, autor, cantidad) VALUES('Las aventuras de Sherlock Holmes', 'Arthur Conan Doyle', 5)
+INSERT INTO libros (titulo, autor, cantidad) VALUES('Dracula', 'Bram Stoker', 3)
+INSERT INTO libros (titulo, autor, cantidad) VALUES('Satanas', 'Mario Mendoza', 6)
+INSERT INTO libros (titulo, autor, cantidad) VALUES('Narraciones extraordinarias', 'Edgar Alan Poe', 2)
+INSERT INTO libros (titulo, autor, cantidad) VALUES('!Que viva la musica¡', 'Andres Caicedo', 4)
