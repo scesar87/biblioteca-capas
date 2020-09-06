@@ -15,7 +15,7 @@ public class BibliotecaService {
 	private BibliotecaDao dao;
 	
 	public List<Libro> listarLibros(){
-		return dao.findAll();
+		return (List<Libro>) dao.findAll();
 	}
 	
 	public String solicitarLibro(Libro libro) {
@@ -34,5 +34,9 @@ public class BibliotecaService {
 	public void devolverLibro(Libro libro) {
 		libro.setCantidad(libro.getCantidad() + 1);
 		dao.save(libro);
+	}
+	
+	public Libro buscarLibroPorTitulo(String titulo) {
+		return dao.findByTitulo(titulo);
 	}
 }

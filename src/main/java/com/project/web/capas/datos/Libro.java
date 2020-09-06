@@ -48,6 +48,11 @@ public class Libro {
 	public void setCantidad(Integer cantidad) {
 		this.cantidad = cantidad;
 	}
+	@Override
+	public String toString() {
+		return "Libro [id=" + id + ", titulo=" + titulo + ", autor=" + autor + ", descripcion=" + descripcion
+				+ ", cantidad=" + cantidad + "]";
+	}
 	
 	
 	
